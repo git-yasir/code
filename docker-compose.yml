@@ -1,0 +1,6 @@
+version : "3.3"
+services :
+  web :
+     image : yasirdocker/yas-nginx-app:latest
+     ports :
+         - "80:80"
